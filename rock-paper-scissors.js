@@ -1,5 +1,5 @@
 // ROCK, PAPER, SCISSORS GAME
-/*
+
 const jankenOptions = ["rock", "paper", "scissors"];
 const computer = jankenOptions[Math.floor(Math.random() * 3)];
 
@@ -38,45 +38,5 @@ rockPaperScissors("scissors");
 rockPaperScissors(1);
 rockPaperScissors("nuclear");
 
-*/
 
 // =====================================================================================================
-
-// CHANGE CALCULATOR
-
-// console.log(calculateChange(700649, 800000));
-// console.log(calculateChange(575650, 580000));
-// console.log(calculateChange(657650, 600000));
-
-// function calculateChange(amount, money) {
-//   const change = money - amount;
-//   return change;
-// }
-
-// console.log(calculateChange(700649, 800000));
-
-function calculateChange(amount, money) {
-  change = money - amount;
-  console.log(change);
-}
-
-calculateChange(200, 100);
-
-// function (amount, money) {
-
-// 	var change = money-amount;
-
-// 	var remaining = change * 100;
-
-// 	var calcQuarter = Math.floor(remaining/25);
-// 		remaining = remaining%25;
-
-// 	var calcDime= Math.floor(remaining/10);
-// 		remaining = remaining%10;
-
-// 	var calcNickel = Math.floor(remaining/5);
-// 		remaining = remaining%5;
-
-// 	var calcPenny = Math.floor(remaining/1);
-//   alert("\nThe total was $" + amount + " with " + "$"+ money + " tendered.\n\nPlease return $" + change.toFixed(2)  + ":  " + calcQuarter + " quarters, "  + calcDime + " dimes, " + calcNickel + " nickels, and " + calcPenny + " pennies, Thank you!");
-// };
