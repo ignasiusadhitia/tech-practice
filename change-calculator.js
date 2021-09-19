@@ -78,12 +78,13 @@ function calculateChange(amount, money) {
       console.log(`${calculateSeratus} koin 100`);
     }
     changeRemaining = changeRemaining % 100;
+    console.log("\n");
   } else {
-    console.log("\nMaaf, kurang bayar!");
+    console.log("\nMaaf, kurang bayar!\n");
   }
 }
 
-calculateChange(2921, 1000100);
+calculateChange(2921, 100);
 
 // =====================================================================================================
 
