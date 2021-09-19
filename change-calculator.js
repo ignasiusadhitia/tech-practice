@@ -6,7 +6,7 @@ function calculateChange(amount, money) {
 
   if (change > 0) {
     console.log(
-      `\nKembalian yang harus diberikan kasir Rp. ${change} \ndibulatkan menjadi Rp. ${changeToBePaid}`
+      `\nKembalian yang harus diberikan kasir Rp. ${change} \ndibulatkan menjadi Rp. ${changeToBePaid}\n`
     );
 
     let calculateSeratusRibu = Math.floor(changeToBePaid / 100000);
@@ -84,7 +84,7 @@ function calculateChange(amount, money) {
   }
 }
 
-calculateChange(2921, 100);
+calculateChange(2921, 50000);
 
 // =====================================================================================================
 
